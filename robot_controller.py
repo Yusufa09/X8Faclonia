@@ -2,7 +2,7 @@ import socket
 from pynput import keyboard
 
 # CONFIGURATION: Replace with your Raspberry Pi's actual IP address
-PI_IP = "192.168.1.XX" 
+PI_IP = "10.144.118.191 " 
 PORT = 5005
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
